@@ -1,6 +1,6 @@
-import 'package:coursenet_quiz/jawaban.dart';
-import 'package:coursenet_quiz/pertanyaan.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart'; 
+import './jawaban.dart';
+import './pertanyaan.dart';
 
 class Kuis extends StatelessWidget {
   // const Kuis({super.key});

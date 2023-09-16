@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
-import 'package:coursenet_quiz/kuis.dart';
-import 'package:coursenet_quiz/hasil.dart';
+import './kuis.dart';
+import './hasil.dart';
 
 void main() => runApp(MyApp());
 
+String judul = 'Kuis Interaktif';
+
 class MyApp extends StatelessWidget {
   MyApp({super.key});
-  String judul = 'Kuis Interaktif';
 
   @override
   Widget build(BuildContext context) {
